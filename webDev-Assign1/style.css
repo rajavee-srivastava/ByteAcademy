@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+
+body {
+  font-family: "Caudex", serif;
+  font-size: 22px;
+}
+
+.dev-name {
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.menu h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 100px;
+  margin: 5px;
+  background-color: aquamarine;
+  text-decoration: none;
+  color: #333;
+  border-radius: 4px;
+  transform: 3s;
+}
+
+.menu ul i{
+    display: block;
+    padding: 10px 100px;
+    margin: 5px;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transform: 3s;
+  }
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+}
+
+.menu ul i:hover {
+    transform: scale(1.1);
+}
+
+.dev-img {
+  display: flex;
+  justify-content: center;
+}
+
+.dev-img img {
+  width: 30vw;
+  display: block;
+}
+
+.info-text {
+  text-align: center;
+  margin: 10px;
+}
